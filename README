@@ -2,7 +2,7 @@ Trinity Mobile 0.1.0
 
 Copyright 2012 Rob Gerns
 
-Requires Android 2.3 (Gingerbread) or higher 
+Requires Android 2.3.3 (Gingerbread) or higher 
 (has not been tested on Android versions greater than 2.3.4)
 
 Trinity Mobile 0.1.0 is released under the open source Mozilla Public License Version 2.0.  You are free to use and modify the source as long as you adhere to the requirements of the MPL 2.0.  You can find a complete copy of the MPL 2.0 in the included LICENSE file and each source file contains an appropriate licensing header block comment.
