@@ -13,6 +13,8 @@ Trinity Mobile was built using Eclipse (www.eclipse.org), the Google Android SDK
 
 Trinity Mobile uses the following JavaScript libraries/tools:
 
+trinjal - available here: https://github.com/trinityeaston/trinjal
+
 jQuery Mobile - available here: http://www.jquerymobile.com
 
 jquery-ui-map - Google Maps Version 3 plugin for JQuery Mobile, available here: http://code.google.com/p/jquery-ui-map/
