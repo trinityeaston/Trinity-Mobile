@@ -11,21 +11,23 @@ Before you build:
 
 Trinity Mobile was built using Eclipse (www.eclipse.org), the Google Android SDK (developer.android.com/sdk), and third-party JavaScript tools or libraries.  Trinity Mobile is not associated with Eclipse, Google, Android, jQuery Mobile, the jquery-ui-map plugin, or PhoneGap in any way.
 
-Trinity Mobile uses a couple of third-party JavaScript libraries that are not included in this source.  You will need to download and include these libraries in any build of Trinity Mobile in order for certain features to work properly.
+Trinity Mobile uses the following JavaScript libraries/tools:
+
+jQuery Mobile - available here: http://www.jquerymobile.com
 
 jquery-ui-map - Google Maps Version 3 plugin for JQuery Mobile, available here: http://code.google.com/p/jquery-ui-map/
 
 PhoneGap - available here: http://phonegap.com/
 
-Trinity Mobile also uses jQuery Mobile, but the JQM library is hosted by the JQM creators so downloading JQM is not necessary.
-
 
 Building:
 
-It is recommended you use PhoneGap and Eclipse with an appropriate Android SDK to build Trinity Mobile.  Setting up the environment is outside the scope of this document, but the PhoneGap website has instructions that will walk you through how to do that.
+It is recommended you use PhoneGap and Eclipse with an appropriate Android SDK (Gingerbread 2.3.3+, so SDK 10+) to build Trinity Mobile.  Setting up the environment is outside the scope of this document, but the PhoneGap website has instructions that will walk you through how to do that.
 
-Once you have the environment set up, place all of the Trinity Mobile files and folders into your /<workspace>/<project>/assets/www folder.  Copy the phonegap and the jquery-ui-map JavaScript files into the assets/www/scripts/ folder.  If the version numbers are different from the version numbers referenced in the head of the index.html, indexa.html, etc files, change the script tags that include those files to reflect the correct version numbers.
+Once you have the Eclipse + Android SDK + PhoneGap environment completely set up, create a new Android project called Trinity Mobile.  Make sure to create the "libs" directory and copy the PhoneGap.jar file to /<workspace>/Trinity Mobile/libs/ (the PhoneGap documentation walks you through how to do that too).
 
-Try to run the project in your Android Emulator.
+Next copy all of the Trinity Mobile files and folders found in the repo's "www" directory into your /<workspace>/Trinity Mobile/assets/www/ directory.  Copy the images from the repo's "res" directory into your corresponding /<workspace>/Trinity Mobile/res/<drawable-*dpi>/ directories.
+
+Try to run the project in your Android Emulator.  It should work, but feel free to e-mail the project admins with questions if it doesn't.
 
 
