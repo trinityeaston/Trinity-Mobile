@@ -1,0 +1,10 @@
+Trinity Mobile Changelog
+------------------------
+
+Version 0.1.1
+-Created separate Regular and Special tabs for Service Times.
+-Added touchscreen swiping to Service Times page.
+-Hardware back button behaves correctly now.  
+
+Version 0.1.0
+-First version
