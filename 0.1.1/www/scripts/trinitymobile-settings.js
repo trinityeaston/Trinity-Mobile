@@ -52,6 +52,7 @@ $('#pageServiceTimes').live("swipeleft", function(){
 
 //If on the main page and the Back button is pressed, exit the app
 $('#pageMain').live("pagebeforecreate", function(){
+    document.removeEventListener("backbutton", onBackKeyDown, true);
     document.addEventListener("backbutton", onMainBackKeyDown, true);
 });
 function onMainBackKeyDown(){
@@ -91,6 +92,8 @@ $('#pageMap').live("pagebeforecreate", function(){
 function onBackKeyDown(){
     var mainMenu = $('#pageMain');
     $.mobile.changePage(mainMenu);
+    document.removeEventListener("backbutton", onBackKeyDown, true);
+    document.addEventListener("backbutton", onMainBackKeyDown, true);
 }
     
 /*
